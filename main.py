@@ -25,4 +25,4 @@ async def home():
      
  return render_template('index.html')
 
-app.run(host='0.0.0.0', port=9190)
+app.run(host='0.0.0.0', port=9100)
