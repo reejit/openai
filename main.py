@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template, redirect
 import requests
-from nekobin import NekoBin, errors
-import asyncio
+#from nekobin import NekoBin, errors
+#import asyncio
 import time
 from app import write
 #
