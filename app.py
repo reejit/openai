@@ -3,7 +3,7 @@ import os
 import json
 import openai
 def write(query):
- openai.api_key = "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"
+ openai.api_key = os.environ.get("KEY")
 
  response = openai.Completion.create(
   model="text-davinci-002",
