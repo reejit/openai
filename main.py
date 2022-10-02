@@ -3,6 +3,7 @@ import requests
 #from nekobin import NekoBin, errors
 #import asyncio
 import time
+import os
 from app import write
 #
 #print(r)
@@ -25,4 +26,4 @@ async def home():
      
  return render_template('index.html')
 
-app.run(host='0.0.0.0', port=9100)
+app.run(host='0.0.0.0', port=os.environ.get("PORT"))
